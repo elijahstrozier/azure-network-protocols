@@ -55,21 +55,24 @@ Open the Network Security Group your Ubuntu VM is using and disable incoming (in
   
   
 Back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity.
-  
-  
+
+![image](https://github.com/elijahstrozier/azure-network-protocols/assets/161254320/5e8d6389-72f1-449a-9a25-4370de045fbf)
+
   
 Re-enable ICMP traffic for the Network Security Group your Ubuntu VM is using.
 
 ![image](https://github.com/elijahstrozier/azure-network-protocols/assets/161254320/28a5ebd7-bd72-4b0b-96e1-918a2a658b33)
 
   
-  
-  
 Back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity (should start working).
-  
-  
-  
+
+![image](https://github.com/elijahstrozier/azure-network-protocols/assets/161254320/28ef5d6f-8be5-4245-b8da-39aedde1b5e5)
+
+
 Stop the ping activity.
+
+![image](https://github.com/elijahstrozier/azure-network-protocols/assets/161254320/ca9ee3be-4a2c-4837-b7b3-ac66c3826b0f)
+
 
  
 .
